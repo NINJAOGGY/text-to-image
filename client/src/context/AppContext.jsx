@@ -13,7 +13,7 @@ const AppContextProvider = (props) => {
     const [credit, setCredit] = useState(null);
     const navigate = useNavigate();
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://text-to-image-backend-d12b.onrender.com"
 
     const loadCreditsData = async () => {
         try {
